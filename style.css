@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+}
+
+.header {
+    background: rgba(90, 24, 154, 0.8); /* Semi-transparent Royal Purple */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+.footer {
+    background: rgba(45, 64, 89, 0.8); /* Semi-transparent Dark Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Home Page Styling */
+.home-main {
+    background: url('https://tse4.mm.bing.net/th?id=OIP._PkVs7n2UjkMdsFHiHMKfAHaEo&pid=Api&P=0&h=180')no-repeat center center fixed; /* Example background image */
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: rgba(233, 236, 239, 0.9); /* Light Gray with Transparency */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+}
+
+.home-content {
+    max-width: 50%;
+}
+
+.home-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home-content ul {
+    list-style: square;
+    margin-left: 1.5rem;
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background: #ffd700; /* Royal Gold */
+    color: #2d4059;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffbf00; /* Darker Gold */
+}
+
+/* Input Form Styling */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(233, 236, 239, 0.9); /* White with Transparency */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #d8e7ed;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.8rem 2rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Resume Preview Styling */
+#resumePreview {
+    background: rgba(233, 236, 239, 0.621); /* White with Transparency */
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
